@@ -4,7 +4,8 @@
 
         if (savedNote) {
             noteDisplay.innerText = savedNote;
-        } else {
+        } 
+        else {
             noteDisplay.innerText = 'No saved notes.';
         }
 
